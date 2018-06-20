@@ -32,8 +32,6 @@ paths:
         200:
           description: OK
       tags:
-      - Business
-      - Corporate
       - Search
   /v2/companies/find:
     get:
@@ -48,7 +46,8 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Companies
+      - Find
   /find:
     get:
       summary: Find Company by IP Address
@@ -62,9 +61,7 @@ paths:
         200:
           description: OK
       tags:
-      - Business
-      - Corporate
-      - Search
+      - Find
   /v1/domains/find:
     get:
       summary: Company Name to Domain
@@ -78,7 +75,8 @@ paths:
         200:
           description: OK
       tags:
-      - ""
+      - Domains
+      - Find
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

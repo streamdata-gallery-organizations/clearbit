@@ -1,26 +1,24 @@
 ---
 name: Clearbit
 x-slug: clearbit
-description: Were committed to bringing our customers the kind of data APIs a modern
-  business needs, from customer analysis, geolocation and fraud prevention to background
-  checks and address verification. By improving tooling we enable our customers to
-  focus on building great products.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clearbit-logo.png
+description: Clearbit provides powerful products and data APIs to help your business
+  grow. Contact enrichment, lead generation, financial compliance, and more...
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11319-clearbit.jpg
 x-kinRank: "8"
-x-alexaRank: ""
+x-alexaRank: "46525"
 tags: Clearbit
-created: "2018-05-25"
-modified: "2018-05-25"
+created: "2018-06-19"
+modified: "2018-06-19"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/clearbit/master/_listings/clearbit/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Clearbit Find Contacts - Job Title
   x-api-slug: clearbit
   description: 'TODO: Add Description'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clearbit-logo.png
-  humanURL: https://clearbit.co
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11319-clearbit.jpg
+  humanURL: http://blog.clearbit.com
   baseURL: https://discovery.clearbit.com//v1/companies//search
-  tags: Business,Corporate,Search
+  tags: Search
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/clearbit/master/_listings/clearbit/search-get-postman.md
@@ -29,10 +27,10 @@ apis:
 - name: Clearbit Domain Lookup
   x-api-slug: clearbit
   description: 'TODO: Add Description'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clearbit-logo.png
-  humanURL: https://clearbit.co
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11319-clearbit.jpg
+  humanURL: http://blog.clearbit.com
   baseURL: https://discovery.clearbit.com//v1/companies//v2/companies/find
-  tags: ~
+  tags: Companies,Find
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/clearbit/master/_listings/clearbit/v2companiesfind-get-postman.md
@@ -41,10 +39,10 @@ apis:
 - name: Clearbit Find Company by IP Address
   x-api-slug: clearbit
   description: 'TODO: Add Description'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clearbit-logo.png
-  humanURL: https://clearbit.co
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11319-clearbit.jpg
+  humanURL: http://blog.clearbit.com
   baseURL: https://discovery.clearbit.com//v1/companies//find
-  tags: Business,Corporate,Search
+  tags: Find
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/clearbit/master/_listings/clearbit/find-get-postman.md
@@ -53,10 +51,10 @@ apis:
 - name: Clearbit Company Name to Domain
   x-api-slug: clearbit
   description: 'TODO: Add Description'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clearbit-logo.png
-  humanURL: https://clearbit.co
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11319-clearbit.jpg
+  humanURL: http://blog.clearbit.com
   baseURL: https://discovery.clearbit.com//v1/companies//v1/domains/find
-  tags: ~
+  tags: Domains,Find
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/clearbit/master/_listings/clearbit/v1domainsfind-get-postman.md
@@ -65,10 +63,10 @@ apis:
 - name: Clearbit By Name
   x-api-slug: clearbit
   description: 'TODO: Add Description'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clearbit-logo.png
-  humanURL: https://clearbit.co
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11319-clearbit.jpg
+  humanURL: http://blog.clearbit.com
   baseURL: https://discovery.clearbit.com//v1/companies//entities
-  tags: Business,Corporate
+  tags: Entities
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/clearbit/master/_listings/clearbit/entities-get-postman.md
@@ -76,63 +74,11 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/clearbit/master/_listings/clearbit/entities-get-openapi.md
 - name: Clearbit
   x-api-slug: clearbit
-  description: Were committed to bringing our customers the kind of data APIs a modern
-    business needs, from customer analysis, geolocation and fraud prevention to background
-    checks and address verification. By improving tooling we enable our customers
-    to focus on building great products.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clearbit-logo.png
-  humanURL: https://clearbit.co
+  description: Clearbit provides powerful products and data APIs to help your business
+    grow. Contact enrichment, lead generation, financial compliance, and more...
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11319-clearbit.jpg
+  humanURL: http://blog.clearbit.com
   baseURL: https://discovery.clearbit.com//v1/companies
-  tags: Clearbit
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/clearbit/master/_listings/clearbit/openapi.md
-- name: Clearbit Company Logo Get Logo
-  x-api-slug: clearbit-company-logo
-  description: Gets a logo for the requested domain.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clearbit-logo.png
-  humanURL: https://clearbit.co
-  baseURL: https://logo.clearbit.com///{domain}
-  tags: Company,Logos
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/clearbit/master/_listings/clearbit/domain-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/clearbit/master/_listings/clearbit/domain-get-openapi.md
-- name: Clearbit Company Logo
-  x-api-slug: clearbit-company-logo
-  description: Were committed to bringing our customers the kind of data APIs a modern
-    business needs, from customer analysis, geolocation and fraud prevention to background
-    checks and address verification. By improving tooling we enable our customers
-    to focus on building great products.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clearbit-logo.png
-  humanURL: https://clearbit.co
-  baseURL: https://logo.clearbit.com//
-  tags: Clearbit
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/clearbit/master/_listings/clearbit/openapi.md
-- name: Clearbit Person Retrieves a person and company by email address
-  x-api-slug: clearbit-person
-  description: Retrieves a person and company by email address.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clearbit-logo.png
-  humanURL: https://clearbit.co
-  baseURL: http://person.clearbit.com//v2//combined/find
-  tags: People
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/clearbit/master/_listings/clearbit/combinedfind-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/clearbit/master/_listings/clearbit/combinedfind-get-openapi.md
-- name: Clearbit Person
-  x-api-slug: clearbit-person
-  description: While services like Gravatar make it straightforward to pull in a user&rsquo;s
-    default avatar, we haven&rsquo;t found anything that caters well to company logos.
-    And yet there&rsquo;s a lot of clear use-cases ranging from setting an organization&rsquo;s
-    default image on signup to pulling in logos next to job listings.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clearbit-logo.png
-  humanURL: https://clearbit.co
-  baseURL: http://person.clearbit.com//v2
   tags: Clearbit
   properties:
   - type: x-openapi-spec
@@ -142,12 +88,26 @@ x-common:
   url: http://blog.clearbit.co/
 - type: x-blog-rss
   url: http://blog.clearbit.co/feed
+- type: x-curated-source
+  url: http://blog.clearbit.com/segment-integration/
+- type: x-website
+  url: http://blog.clearbit.com
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/clearbit
+- type: x-email
+  url: success@clearbit.com
+- type: x-email
+  url: support@clearbit.com
 - type: x-github
   url: https://github.com/clearbit
 - type: x-pricing
   url: https://clearbit.com/pricing
 - type: x-twitter
   url: https://twitter.com/clearbit
+- type: x-website
+  url: http://clearbit.com
+- type: x-website
+  url: https://clearbit.com
 - type: x-website
   url: https://clearbit.co
 include: []

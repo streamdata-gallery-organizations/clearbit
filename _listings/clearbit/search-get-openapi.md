@@ -32,8 +32,6 @@ paths:
         200:
           description: OK
       tags:
-      - Business
-      - Corporate
       - Search
 x-streamrank:
   polling_total_time_average: 0
