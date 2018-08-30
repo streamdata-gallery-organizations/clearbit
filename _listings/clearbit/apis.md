@@ -7,83 +7,81 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11319-clea
 x-kinRank: "8"
 x-alexaRank: "46525"
 tags: Clearbit
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-29"
+modified: "2018-08-29"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/clearbit/master/_listings/clearbit/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Clearbit Find Contacts - Job Title
-  x-api-slug: clearbit
+- name: Clearbit - Find Contacts - Job Title
+  x-api-slug: search-get
   description: 'TODO: Add Description'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11319-clearbit.jpg
   humanURL: http://blog.clearbit.com
-  baseURL: https://discovery.clearbit.com//v1/companies//search
-  tags: Search
+  baseURL: https://discovery.clearbit.com//v1/companies
+  tags: Business Intelligence, Business, Target, Stack Network, API Provider, SaaS,
+    Technology, Profiles, General Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/clearbit/master/_listings/clearbit/search-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/clearbit/master/_listings/clearbit/search-get-openapi.md
-- name: Clearbit Domain Lookup
-  x-api-slug: clearbit
+- name: Clearbit - Domain Lookup
+  x-api-slug: v2companiesfind-get
   description: 'TODO: Add Description'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11319-clearbit.jpg
   humanURL: http://blog.clearbit.com
-  baseURL: https://discovery.clearbit.com//v1/companies//v2/companies/find
-  tags: Companies,Find
+  baseURL: https://discovery.clearbit.com//v1/companies
+  tags: Business Intelligence, Business, Target, Stack Network, API Provider, SaaS,
+    Technology, Profiles, General Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/clearbit/master/_listings/clearbit/v2companiesfind-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/clearbit/master/_listings/clearbit/v2companiesfind-get-openapi.md
-- name: Clearbit Find Company by IP Address
-  x-api-slug: clearbit
+- name: Clearbit - Find Company by IP Address
+  x-api-slug: find-get
   description: 'TODO: Add Description'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11319-clearbit.jpg
   humanURL: http://blog.clearbit.com
-  baseURL: https://discovery.clearbit.com//v1/companies//find
-  tags: Find
+  baseURL: https://discovery.clearbit.com//v1/companies
+  tags: Business Intelligence, Business, Target, Stack Network, API Provider, SaaS,
+    Technology, Profiles, General Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/clearbit/master/_listings/clearbit/find-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/clearbit/master/_listings/clearbit/find-get-openapi.md
-- name: Clearbit Company Name to Domain
-  x-api-slug: clearbit
+- name: Clearbit - Company Name to Domain
+  x-api-slug: v1domainsfind-get
   description: 'TODO: Add Description'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11319-clearbit.jpg
   humanURL: http://blog.clearbit.com
-  baseURL: https://discovery.clearbit.com//v1/companies//v1/domains/find
-  tags: Domains,Find
+  baseURL: https://discovery.clearbit.com//v1/companies
+  tags: Business Intelligence, Business, Target, Stack Network, API Provider, SaaS,
+    Technology, Profiles, General Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/clearbit/master/_listings/clearbit/v1domainsfind-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/clearbit/master/_listings/clearbit/v1domainsfind-get-openapi.md
-- name: Clearbit By Name
-  x-api-slug: clearbit
+- name: Clearbit - By Name
+  x-api-slug: entities-get
   description: 'TODO: Add Description'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11319-clearbit.jpg
   humanURL: http://blog.clearbit.com
-  baseURL: https://discovery.clearbit.com//v1/companies//entities
-  tags: Entities
+  baseURL: https://discovery.clearbit.com//v1/companies
+  tags: Business Intelligence, Business, Target, Stack Network, API Provider, SaaS,
+    Technology, Profiles, General Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/clearbit/master/_listings/clearbit/entities-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/clearbit/master/_listings/clearbit/entities-get-openapi.md
-- name: Clearbit
-  x-api-slug: clearbit
-  description: Clearbit provides powerful products and data APIs to help your business
-    grow. Contact enrichment, lead generation, financial compliance, and more...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11319-clearbit.jpg
-  humanURL: http://blog.clearbit.com
-  baseURL: https://discovery.clearbit.com//v1/companies
-  tags: Clearbit
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/clearbit/master/_listings/clearbit/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://cisco.webex.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://clearbit.stack.network
 - type: x-blog
   url: http://blog.clearbit.co/
 - type: x-blog-rss

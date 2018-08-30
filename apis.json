@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Clearbit",
+	"description": "This is a repository of clearbit APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/clearbit.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-29",
+	"url": "http://clearbit.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Clearbit",
+			"x-api-slug": "clearbit",
+			"description": "Clearbit provides powerful products and data APIs to help your business grow. Contact enrichment, lead generation, financial compliance, and more...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11319-clearbit.jpg",
+			"humanURL": "http://blog.clearbit.com",
+			"baseURL": "https://discovery.clearbit.com//v1/companies",
+			"tags": "Clearbit",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/clearbit/master/_listings/clearbit/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Clearbit",
+	"include": [
+		{
+			"name": "Clearbit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/clearbit/master/_listings/clearbit/apis.yaml"
+		}
+	]
+}
