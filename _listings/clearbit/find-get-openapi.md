@@ -15,39 +15,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /search:
-    get:
-      summary: Find Contacts - Job Title
-      description: 'TODO: Add Description'
-      operationId: SearchGet3
-      x-api-path-slug: search-get
-      parameters:
-      - in: query
-        name: domain
-      - in: query
-        name: email
-      - in: query
-        name: title
-      responses:
-        200:
-          description: OK
-      tags:
-      - Search
-  /v2/companies/find:
-    get:
-      summary: Domain Lookup
-      description: 'TODO: Add Description'
-      operationId: V2CompaniesFindGet
-      x-api-path-slug: v2companiesfind-get
-      parameters:
-      - in: query
-        name: domain
-      responses:
-        200:
-          description: OK
-      tags:
-      - Companies
-      - Find
   /find:
     get:
       summary: Find Company by IP Address

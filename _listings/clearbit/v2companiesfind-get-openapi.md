@@ -15,24 +15,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /search:
-    get:
-      summary: Find Contacts - Job Title
-      description: 'TODO: Add Description'
-      operationId: SearchGet3
-      x-api-path-slug: search-get
-      parameters:
-      - in: query
-        name: domain
-      - in: query
-        name: email
-      - in: query
-        name: title
-      responses:
-        200:
-          description: OK
-      tags:
-      - Search
   /v2/companies/find:
     get:
       summary: Domain Lookup
